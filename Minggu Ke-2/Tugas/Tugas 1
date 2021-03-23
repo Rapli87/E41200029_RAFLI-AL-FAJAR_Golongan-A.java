@@ -1,0 +1,15 @@
+public static void main(String[] args) {
+        // TODO code application logic here
+        String fName,IName,stuId,stuStatus;
+        fName = "Rafli";
+        IName = "Al Fajar";
+        stuId = "E41200029";
+        stuStatus = "active";
+        
+        System.out.println("Student Name : " + fName + "" + IName);
+        System.out.println("Student ID : " + stuId);
+        System.out.println("Student Status : " + stuStatus); 
+    }
+    
+    
+}
