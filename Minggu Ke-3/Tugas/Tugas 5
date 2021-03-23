@@ -1,0 +1,56 @@
+package Tugas_Minggu_3;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author ACER
+ */
+public class E {
+    public static void main(String[] args) {
+        
+        Scanner s = new Scanner(System.in);
+        System.out.println("           RM Rafli Sederhana");
+        System.out.println("         Aneka Makanan & Minuman");
+        System.out.println("--------------------------------------------");
+        System.out.println("1. Es Teh");
+        System.out.println("2. Es Jeruk");
+        System.out.println("3. Ayam Goreng Crispy");
+        System.out.println("4. Nasi Goreng Spesial");
+        System.out.println("5. Nasi Bakar");
+        System.out.println("--------------------------------------------");
+        System.out.print("Masukan nama pembeli : ");
+        String nama = s.nextLine();
+        System.out.print("Silahkan masukan nomer menu pilihan anda : ");
+        
+        int op = s.nextInt();
+        String menu = "";
+        
+        switch (op) {
+            case 1:
+                menu = "Es Teh";
+                break;
+            case 2:
+                menu = "Es Jeruk";
+                break;
+            case 3:
+                menu = "Ayam Goreng Crispy";
+                break;
+            case 4:
+                menu = "Nasi Goreng Spesial";
+                break;
+            case 5:
+                menu = "Nasi Bakar";
+                break;
+            default:
+                System.out.println("Maaf,Pilihan anda tidak ada di daftar menu");
+                break;
+        }       
+        
+        System.out.println("Menu yang anda pilih adalah : " + menu);
+        System.out.println("Pesanan anda akan segera kami antar");
+        System.out.println("Terima kasih " + nama + " telah berkunjung di RM Rafli Sederhana");
+        
+        
+    }
+}
