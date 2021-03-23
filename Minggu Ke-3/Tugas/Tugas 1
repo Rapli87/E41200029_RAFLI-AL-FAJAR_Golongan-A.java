@@ -1,0 +1,17 @@
+package Tugas_Minggu_3;
+
+/**
+ *
+ * @author ACER
+ */
+public class A {
+    public static void main(String[] args){
+        
+        String[] siswa1 = {"Rafli", "Al", "Fajar"};
+        System.out.print("Nama : ");
+        for (String data : siswa1) {
+            System.out.print(data + " ");
+        }
+        System.out.println("");
+    }
+}
