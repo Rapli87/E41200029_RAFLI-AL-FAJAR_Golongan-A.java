@@ -1,4 +1,10 @@
- public static void main(String[] args) {
+package Tugas_Minggu_2;
+/**
+ *
+ * @author ACER
+ */
+public class D {
+    public static void main(String[] args) {
         // TODO code application logic here
         String s1 = "ABC";
         String s2 = "DEF";
