@@ -1,4 +1,14 @@
-public static void main(String[] args) {
+package Tugas_Minggu_2;
+
+/**
+ *
+ * @author ACER
+ */
+public class A {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
         // TODO code application logic here
         String fName,IName,stuId,stuStatus;
         fName = "Rafli";
