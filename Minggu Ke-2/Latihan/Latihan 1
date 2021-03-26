@@ -1,4 +1,11 @@
- public static void main(String[] args) {
+package Praktikum_Minggu_2;
+
+/**
+ *
+ * @author ACER
+ */
+public class Praktikum_1 {
+    public static void main(String[] args) {
         // TODO code application logic here
         
         System.out.println("Hello");
