@@ -1,4 +1,11 @@
-public static void main(String[] args) {
+package Tugas_Minggu_2;
+
+/**
+ *
+ * @author ACER
+ */
+public class C {
+   public static void main(String[] args) {
         
         // Pendeklarasian variable yang benar
         boolean gameOver = false;
@@ -7,10 +14,14 @@ public static void main(String[] args) {
         short number1;
         
         // Pendeklarasian variable yang salah
-        int 2beOrNot2be;
-        float price index;
-        double lastYear'sPrice;
+        int 2beOrNot2be; 
+        //salah karena pada awalnya dituliskan angka
+        float price index; 
+        //salah karena terdapat spaci yang ada pada satu variabel
+        double lastYear'sPrice;  
+        //salah karena terdapat penggunaan simbol petik satu(') yang seharusnya tidak perlu digunakan
         long class;
+        // salah karena menggunakan kata kunci asli dari java
     }
     
 }
