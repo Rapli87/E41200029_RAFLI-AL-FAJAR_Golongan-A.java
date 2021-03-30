@@ -10,11 +10,13 @@ public class Tugas_2 {
       System.out.println("Bilangan kelipatan 2 (1-100)");
       System.out.println("============================");
         int i = 1;
-      do{
-         i = i * 2; 
-        System.out.print(i + " ");
-      if( i == 64 )break;
-      } while (true);
+        int batas = 8;
+        int pangkat = 1;
+      do{ 
+         System.out.print(pangkat + " ");
+        pangkat *= 2;
+        i++;
+      } while (i < batas);
     
     }
     
