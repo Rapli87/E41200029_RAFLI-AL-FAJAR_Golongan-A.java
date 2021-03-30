@@ -1,0 +1,21 @@
+package Tugas_Miinggu_4;
+
+/**
+ *
+ * @author ACER
+ */
+public class Tugas_2 {
+    public static void main(String[] args) {
+      System.out.println("          Do_While          ");
+      System.out.println("Bilangan kelipatan 2 (1-100)");
+      System.out.println("============================");
+        int i = 1;
+      do{
+         i = i * 2; 
+        System.out.print(i + " ");
+      if( i == 64 )break;
+      } while (true);
+    
+    }
+    
+}
