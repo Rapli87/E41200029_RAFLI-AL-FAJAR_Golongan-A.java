@@ -1,0 +1,18 @@
+package Praktikum_Minggu_4;
+
+/**
+ *
+ * @author ACER
+ */
+public class Praktikum_4 {
+    public static void main(String [] args){
+        
+       //membuat array
+      int angka [] = {3, 1, 42, 24, 12};
+      //menggunakan perulangan For Each untuk menampilkan angka
+      for( int x : angka){
+          System.out.print(x + " ");
+      }
+    }
+    
+}
