@@ -1,0 +1,18 @@
+package Tugas_Miinggu_4;
+
+/**
+ *
+ * @author ACER
+ */
+public class Tugas_2_Kelipatan2 {
+    public static void main(String[] args) {
+      System.out.println("          Do_While          ");
+      System.out.println("Bilangan kelipatan 2 (0-100)");
+      System.out.println("============================");
+        for(int a=2; a<100; a+=2) {
+            System.out.print(a + " ");
+        }
+    
+    }
+    
+}
