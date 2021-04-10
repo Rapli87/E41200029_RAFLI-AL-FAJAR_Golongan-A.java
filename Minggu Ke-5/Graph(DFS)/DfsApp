@@ -1,0 +1,75 @@
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Stack;
+
+/**
+ *
+ * @author ACER
+ */
+public class DfsApp {
+    int V;
+    LinkedList<Integer> adjList[];
+   
+    
+    DfsApp(int v) {
+        System.out.println("Visit by using DFS algoritm :");
+        V = v;
+        adjList = new LinkedList[v];
+        for (int i=0; i<v; ++i)
+                {
+            adjList[i] = new LinkedList();
+                }
+    }
+    
+    void addEdgesToGraph(int v, int u)
+    {
+         adjList[v].add(u);               
+    }
+            
+            void DFTraversal (int v,int visited[])
+            {
+                visited[v] = 1;
+                     System.out.print(v + " ");
+                Iterator<Integer> i =adjList[v].listIterator();
+                while (i.hasNext())
+                {
+                    int n = i.next();
+                    if (visited[n]==0)
+                        DFTraversal(n, visited);
+                }    
+            }
+            
+            void DFSearch(int v)
+            {
+                        
+                int visited[] = new int[V];
+                        
+                DFTraversal(v, visited);
+                        for (int i=1;i<V;i++)
+                        {
+                                 if(visited[i]==0)
+                                 {
+                              DFTraversal(i, visited);
+                                 }
+                        }
+        }
+        
+        public static void main(String args[])
+        {
+            DfsApp obj = new DfsApp(10);
+            
+            obj.addEdgesToGraph(1,2);
+            obj.addEdgesToGraph(1,2);
+            obj.addEdgesToGraph(1,2);
+            obj.addEdgesToGraph(1,2);
+            obj.addEdgesToGraph(1,2);
+            obj.addEdgesToGraph(1,2);
+            obj.addEdgesToGraph(1,2);
+            obj.addEdgesToGraph(1,2);
+            obj.addEdgesToGraph(1,2);
+            
+            
+            
+            obj.DFSearch(1);
+        }
+    }
